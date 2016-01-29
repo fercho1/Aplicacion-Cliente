@@ -36,27 +36,20 @@ public class Cliente extends Thread{
         recibirMensaje();
     }
     
-    public void enviarMensaje(){
-        String mensaje;
-        BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
-        try {
-            while ((mensaje = stdIn.readLine()) != null) {
-                salida.println(mensaje); 
-            }
-        } catch (IOException ex) {
-            Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
-        }
+    public void enviarMensaje(String mensaje){
+                salida.println(mensaje);                     
     }
     
-    public void recibirMensaje(){
+    public String recibirMensaje(){
         
         String userInput;
         try {
-            while ((userInput = entrada.readLine()) != null) {
-                System.out.println(userInput);
-            }
+            userInput = entrada.readLine() 
+            return userInput;
+            
         } catch (IOException ex) {
             Logger.getLogger(Cliente.class.getName()).log(Level.SEVERE, null, ex);
+            return "Fallo";
         }
     }
 }
