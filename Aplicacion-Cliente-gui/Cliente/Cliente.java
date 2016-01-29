@@ -20,8 +20,8 @@ public class Cliente extends Thread{
             socket = new Socket(hostName, portNumber);
             salida = new PrintWriter(socket.getOutputStream(), true);
             entrada = new BufferedReader(new InputStreamReader(socket.getInputStream())); 
-            start();
-            enviarMensaje();
+            //start();
+            //enviarMensaje();
         } catch (UnknownHostException e) {
             System.err.println("Don't know about host " + hostName);
             System.exit(1);
@@ -44,7 +44,7 @@ public class Cliente extends Thread{
         
         String userInput;
         try {
-            userInput = entrada.readLine() 
+            userInput = entrada.readLine();
             return userInput;
             
         } catch (IOException ex) {
