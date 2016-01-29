@@ -1,0 +1,213 @@
+  .boton {
+    font-family: arial,sans-serif;
+    color: white;
+    font-size: 18px;
+  }
+  .log {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 25px;
+  }
+  h1 {
+    color: chocolate;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #1020d0;
+    font-size: 26px;
+    font: 1.2em 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-weight: 700;
+    margin-left: 3em;
+  }
+  
+  h3 {
+    color: black;
+    font-size: 17px;
+    font: 1.2em 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-weight: 500;
+    margin-left: 3em;
+  }
+  
+  h4 {
+    color: black;
+    font-size: 14px;
+    font: 1.2em 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-weight: 700;
+    margin-left: 3em;
+  }
+  
+  body {
+    color: coral;
+  }
+  
+  
+  .centrar {
+    text-align: center;
+    color: black
+  }
+  
+  #tabla1 {
+    color: aqua;
+  }
+  
+  .Estilo1 {
+    color: #FFF;
+    font-size: 23px;
+  }
+  
+  .Estilo2 {
+    color: black;
+    font-size: 17px;
+  }
+  
+  .Estilo3 {
+    font-family: "Times New Roman", Times, serif;
+    color: #512B1C;
+    font-size: 30px;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+  
+  .Estilo4 {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  .Estilo5 {
+    color: #333333;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-weight: 900;
+    font-size: 25px;
+    font-variant: small-caps;
+  }
+  
+  .Estilo6 {
+    color: #333333;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-size: 18px;
+  }
+  
+  .Estilo7 {
+    color: #ff4d4d;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-weight: 900;
+    font-size: 21px;
+    font-variant: small-caps;
+  }
+  
+  .Estilo8 {
+    color: #333333;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-size: 15px;
+  }
+  
+  .Estilo9 {
+    color: #ffffff;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-weight: 900;
+    font-size: 19px;
+  }
+  
+  .Estilo10 {
+    color: #ffffff;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-size: 15px;
+    font-variant: small-caps;
+  }
+  
+  .Estilo11 {
+    color: #ffffff;
+    font: 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    font-size: 12px;
+  }
+  hr { 
+  background-color: black;
+  height: 2px; 
+}
+
+.Estilo12 {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    font-size: 23px;
+    font-weight: 900;
+  }
+  .Estilo13 {
+    color: #ff4d4d;
+    font: 'Segoe UI', Arial, Helvetica, Sans-Serif;
+    
+    font-size: 14px;
+    
+  }
+  
+  .Estilo14 {
+    color: #333333;
+    font-family: ‘Times New Roman’, Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .Estilo15 {
+    font-family: "Times New Roman", Times, serif;
+    color: #512B1C;
+    font-size: 15px;
+    font-weight: 900;
+    font-variant: small-caps;
+  }
+   
+  .Estilo16 {
+    font-family: Playfair Display;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 400
+    
+  }
+  
+  .title {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 70px;
+    letter-spacing: .025em
+    
+}
+.title--nomargin {
+    margin: 0
+    
+}
+
+.categoria1 {
+    font-family: Playfair Display;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 70px;
+    letter-spacing: .025em
+    
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFFFF;
+    color: black;
+}
+  li {
+    font-family: Playfair Display;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    
+  }
+  .log1 {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .log2 {
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-size: 23px;
+    
+  }

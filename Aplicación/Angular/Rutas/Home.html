@@ -1,0 +1,86 @@
+<br>
+
+<br>
+<br>
+<div class="row">
+    <div class="col-sm-4">
+        <!--CONTENEDOR IZQUIERDO-->
+    </div>
+
+    <div class="col-sm-4 animated flip" style="background-color:#2B2B2B;">
+        <!--       EMPIEZA EL CONTENEDOR DE LA MITAD-->
+
+
+
+
+        <form ng-submit="agregarUsuario()">
+
+            <div class="form-group">
+                <br>
+                <br>
+                <br>
+                <input ng-model="decifrado" id="idUsuario" type="text" class="form-control" id="nombreUsuario" placeholder="Ingrese la palabra para cifrar">
+            </div>
+
+
+
+
+            <button type="submit" class="btn btn-primary" onclick="a()">Cifrar</button>
+
+
+        </form>
+        <br>
+        <br>
+        <br>
+
+
+
+
+
+        <form>
+            <input id="idTexto" class="form-control" ng-model="searchText" placeholder="Ingrese la palabra a decifrar" size="35">
+            <button type="submit" id="idIngresarSearch" ng-click="buscarPorHash()" class="btn btn-danger">Decifrar</button>
+
+
+
+        </form>
+
+
+
+        <div class="col-sm-6" ng-repeat="laUniversidad in data">
+            {{laUniversidad.decifrado}}
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <form>
+        <button type="submit" id="idIngresarSearch" ng-click="buscar()" class="btn btn-danger">Todos</button>
+
+    </form>
+    
+    <form>
+        <button type="submit" id="idIngresarSearch" ng-click="dem()" class="btn btn-danger">dem</button>
+
+    </form>
+    <div class="col-sm-12" ng-repeat="un in hola">
+        {{un.decifrado}}
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="col-sm-4">
+        <!--        CONTENEDOR IZQUIERDO-->
+    </div>
+</div>
